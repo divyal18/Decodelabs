@@ -25,3 +25,10 @@ This project implements a simple rule-based chatbot in Python as part of the Dec
 - Model: K-Nearest Neighbors (KNN) with evaluation (accuracy, F1 score, confusion matrix).
 - Hyperparameter tuning: error rate vs K curve to study overfitting/underfitting.
 - Insight: petal length and width are most discriminative features.
+
+## 3. Tech Stack Recommender
+- Content-based recommendation system using TF-IDF + Cosine Similarity.
+- Input: user skills (e.g., Python, Cloud, Automation).
+- Output: top matching job roles based on similarity scores.
+- Cold-start handling: fallback to trending roles or metadata inference.
+- Demonstrates practical application of NLP vectorization.
